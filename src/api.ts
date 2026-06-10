@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://cateringback.onrender.com',
+  baseURL: 'https://cateringback.onrender.com/api/',
 });
 
 // Interceptor para incluir el token en cada petición
